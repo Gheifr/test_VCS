@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Головна";
+}
+
+<title>Головна</title>
+<h2>Головна</h2>
+
+<div>
+    <button class="btn btn-dark" onclick="@("window.location.href='" + @Url.Action("Index", "Home") + "'");">300</button>
+</div>
+<div>
+    <p />
+</div>
+<div>
+    <button class="btn btn-dark" onclick="@("window.location.href='" + @Url.Action("IndexLost", "Lost") + "'");">200</button>
+</div>
+
